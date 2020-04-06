@@ -20,10 +20,19 @@ h3 {
   padding: 3% 5% 5%;
 }
 
+.column {
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
 .designIcon {
   font-family: 'Fredoka One', cursive;
-  font-size: 5rem;
+  font-size: 4rem;
   -webkit-text-stroke: 5px #FEA5AD;
+}
+
+.image-card {
+  width: 50%;
 }
 
 .title-image {
@@ -41,20 +50,17 @@ h3 {
 
 .nav-link {
   font-size: 2rem;
-  margin-right: 1rem;
+  text-align: center;
 }
 
-.image-card {
-  width: 250px;
-}
-
-.products {
+.productos {
   padding: 7% 15%;
   background-color: white;
   position: relative;
   z-index: 1;
 }
 
-.col {
-  margin: 10%;
+.productos {
+  padding: 100px;
+  text-align: center;
 }
