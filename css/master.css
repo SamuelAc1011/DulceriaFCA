@@ -1,6 +1,60 @@
+/*
+background-color: #d4ebd0;
+background-color: #f5cab3;
+background-color: #f3ecb8;
+*/
+
+h1 {
+  color: #d4ebd0;
+  padding-top: 4%;
+  font-size: 4rem;
+}
+
+h3 {
+  color: #f3ecb8;
+  font-size: 2rem;
+}
+
+
+.container-fluid {
+  padding: 3% 5% 5%;
+}
+
+.designIcon {
+  font-family: 'Fredoka One', cursive;
+  font-size: 5rem;
+  -webkit-text-stroke: 5px #FEA5AD;
+}
+
+.title-image {
+  width: 45%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 20%;
+}
+
 .navbar-color {
   background-color: #b590ca;
-  /*  background-color: #d4ebd0;
-  background-color: #f5cab3;
-  background-color: #f3ecb8;*/
+  padding: 0.5%;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.image-card {
+  width: 250px;
+}
+
+.products {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.col {
+  margin: 10%;
 }
