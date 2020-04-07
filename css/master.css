@@ -25,6 +25,10 @@ h3 {
   margin-bottom: 3%;
 }
 
+.counter {
+  margin-bottom: 10%;
+}
+
 .designIcon {
   font-family: 'Fredoka One', cursive;
   font-size: 4rem;
@@ -63,4 +67,10 @@ h3 {
 .productos {
   padding: 100px;
   text-align: center;
+}
+
+.carro-compras {
+  background-color: #f5cab3;
+  text-align: center;
+  padding: 7% 15%;
 }
