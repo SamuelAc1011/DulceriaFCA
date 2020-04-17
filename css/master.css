@@ -89,3 +89,8 @@ h3 {
   text-align: center;
   padding: 7% 15%;
 }
+
+.informacion {
+  padding: 4% 15%;
+  align-items: center;
+}
