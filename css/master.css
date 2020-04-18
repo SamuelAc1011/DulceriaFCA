@@ -50,6 +50,10 @@ h3 {
   padding: 3% 5% 5%;
 }
 
+.count {
+  text-align: center;
+}
+
 .counter {
   margin-bottom: 10%;
 }
@@ -87,6 +91,7 @@ h3 {
   background-color: WHITE;
   padding: 7% 15%;
   position: relative;
+  text-align: center;
   z-index: 1;
 }
 
