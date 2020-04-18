@@ -1,32 +1,38 @@
 /*
-background-color: #d4ebd0;
-background-color: #f5cab3;
-background-color: #f3ecb8;
+background-color: #D4EDB0;
+background-color: #FEA5AD;
+background-color: #F3ECB8;
 */
 
 h1 {
-  color: #d4ebd0;
+  color: #D4EDB0;
   font-size: 4rem;
   padding-top: 4%;
 }
 
 h3 {
-  color: #f3ecb8;
+  color: #F3ECB8;
   font-size: 2rem;
 }
 
+.carro-compras {
+  background-color: #B590CA;
+  padding: 7% 15%;
+  text-align: center;
+}
+
 .color-white-text {
-  color: white;
+  color: WHITE;
   font-size: 3rem;
 }
 
 .color-white-subtitle {
-  color: white;
+  color: WHITE;
   font-size: 2rem;
 }
 
 .color-purple-text {
-  color: #b590ca;
+  color: #B590CA;
   font-size: 3rem;
 }
 
@@ -53,8 +59,12 @@ h3 {
   width: 50%;
 }
 
+.informacion {
+  padding: 4% 15%;
+}
+
 .navbar-color {
-  background-color: #b590ca;
+  background-color: #B590CA;
   font-size: 1.5rem;
   padding: 0.5%;
 }
@@ -64,35 +74,20 @@ h3 {
   text-align: center;
 }
 
+.pago {
+  background-color: WHITE;
+}
+
 .productos {
-  background-color: white;
+  background-color: WHITE;
   padding: 7% 15%;
   position: relative;
   z-index: 1;
 }
 
 .title-image {
-  width: 45%;
-  transform: rotate(20deg);
   position: absolute;
   right: 20%;
-}
-
-
-
-
-
-.carro-compras {
-  background-color: #b590ca;
-  text-align: center;
-  padding: 7% 15%;
-}
-
-.informacion {
-  padding: 4% 15%;
-  align-items: center;
-}
-
-.pago {
-  background-color: white;
+  transform: rotate(20deg);
+  width: 45%;
 }
