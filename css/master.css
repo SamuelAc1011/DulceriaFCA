@@ -1,47 +1,57 @@
 /*
-background-color: #d4ebd0;
-background-color: #f5cab3;
-background-color: #f3ecb8;
+background-color: #D4EDB0;
+background-color: #FEA5AD;
+background-color: #F3ECB8;
 */
 
 h1 {
-  color: #d4ebd0;
-  padding-top: 4%;
+  color: #D4EDB0;
   font-size: 4rem;
+  padding-top: 4%;
 }
 
 h3 {
-  color: #f3ecb8;
+  color: #F3ECB8;
   font-size: 2rem;
 }
 
+.boton-retorno {
+  margin-top: 4%;
+  text-align: center;
+}
+
+.carro-compras {
+  background-color: #B590CA;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.color-white-text {
+  color: WHITE;
+  font-size: 3rem;
+}
+
+.color-white-subtitle {
+  color: WHITE;
+  font-size: 2rem;
+}
+
+.color-purple-text {
+  color: #B590CA;
+  font-size: 3rem;
+}
+
+.column {
+  margin-bottom: 3%;
+  margin-top: 1%;
+}
 
 .container-fluid {
   padding: 3% 5% 5%;
 }
 
-.column {
-  margin-top: 1%;
-  margin-bottom: 3%;
-}
-
 .counter {
   margin-bottom: 10%;
-}
-
-.color-white-text {
-  color: white;
-  font-size: 3rem;
-}
-
-.color-white-subtitle {
-  color: white;
-  font-size: 2rem;
-}
-
-.color-purple-text {
-  color: #b590ca;
-  font-size: 3rem;
 }
 
 .designIcon {
@@ -54,17 +64,14 @@ h3 {
   width: 50%;
 }
 
-.title-image {
-  width: 45%;
-  transform: rotate(20deg);
-  position: absolute;
-  right: 20%;
+.informacion {
+  padding: 4% 15%;
 }
 
 .navbar-color {
-  background-color: #b590ca;
-  padding: 0.5%;
+  background-color: #B590CA;
   font-size: 1.5rem;
+  padding: 0.5%;
 }
 
 .nav-link {
@@ -72,20 +79,20 @@ h3 {
   text-align: center;
 }
 
+.pago {
+  background-color: WHITE;
+}
+
 .productos {
+  background-color: WHITE;
   padding: 7% 15%;
-  background-color: white;
   position: relative;
   z-index: 1;
 }
 
-.productos {
-  padding: 100px;
-  text-align: center;
-}
-
-.carro-compras {
-  background-color: #f3ecb8;
-  text-align: center;
-  padding: 7% 15%;
+.title-image {
+  position: absolute;
+  right: 20%;
+  transform: rotate(20deg);
+  width: 45%;
 }
