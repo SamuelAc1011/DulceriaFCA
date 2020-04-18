@@ -15,6 +15,11 @@ h3 {
   font-size: 2rem;
 }
 
+.boton-retorno {
+  margin-top: 4%;
+  text-align: center;
+}
+
 .carro-compras {
   background-color: #B590CA;
   padding: 7% 15%;
