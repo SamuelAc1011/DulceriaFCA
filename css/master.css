@@ -6,27 +6,13 @@ background-color: #f3ecb8;
 
 h1 {
   color: #d4ebd0;
-  padding-top: 4%;
   font-size: 4rem;
+  padding-top: 4%;
 }
 
 h3 {
   color: #f3ecb8;
   font-size: 2rem;
-}
-
-
-.container-fluid {
-  padding: 3% 5% 5%;
-}
-
-.column {
-  margin-top: 1%;
-  margin-bottom: 3%;
-}
-
-.counter {
-  margin-bottom: 10%;
 }
 
 .color-white-text {
@@ -44,6 +30,19 @@ h3 {
   font-size: 3rem;
 }
 
+.column {
+  margin-bottom: 3%;
+  margin-top: 1%;
+}
+
+.container-fluid {
+  padding: 3% 5% 5%;
+}
+
+.counter {
+  margin-bottom: 10%;
+}
+
 .designIcon {
   font-family: 'Fredoka One', cursive;
   font-size: 4rem;
@@ -54,17 +53,10 @@ h3 {
   width: 50%;
 }
 
-.title-image {
-  width: 45%;
-  transform: rotate(20deg);
-  position: absolute;
-  right: 20%;
-}
-
 .navbar-color {
   background-color: #b590ca;
-  padding: 0.5%;
   font-size: 1.5rem;
+  padding: 0.5%;
 }
 
 .nav-link {
@@ -73,19 +65,25 @@ h3 {
 }
 
 .productos {
-  padding: 7% 15%;
   background-color: white;
+  padding: 7% 15%;
   position: relative;
   z-index: 1;
 }
 
-.productos {
-  padding: 100px;
-  text-align: center;
+.title-image {
+  width: 45%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 20%;
 }
 
+
+
+
+
 .carro-compras {
-  background-color: #f3ecb8;
+  background-color: #b590ca;
   text-align: center;
   padding: 7% 15%;
 }
@@ -93,4 +91,8 @@ h3 {
 .informacion {
   padding: 4% 15%;
   align-items: center;
+}
+
+.pago {
+  background-color: white;
 }
