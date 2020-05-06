@@ -4,6 +4,12 @@ background-color: #FEA5AD;
 background-color: #F3ECB8;
 */
 
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin: 0;
+}
+
 h1 {
   color: #D4EDB0;
   font-size: 4rem;
