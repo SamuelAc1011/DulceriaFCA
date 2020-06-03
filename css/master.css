@@ -4,6 +4,10 @@ background-color: #FEA5AD;
 background-color: #F3ECB8;
 */
 
+* {
+scroll-behavior: smooth;
+}
+
 input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   -moz-appearance: none;

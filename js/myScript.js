@@ -8,6 +8,7 @@ function obtenerValor(idProducto) {
   document.getElementById('total' + idProducto).value = resultado;
 }
 
+
 function limpiar() {
   for (var i = 1; i <= 10; i++) {
     //Ponemos vacíos cada elemento de los ID que solicita la página
@@ -15,6 +16,7 @@ function limpiar() {
     document.getElementById("resultado" + i).value = "";
   }
 }
+
 
 function calcular () {
   var importeTotal = 0;
